@@ -133,6 +133,7 @@ public class Controller implements Observer {
         DataBase dataBase = new DataBase("resources/Vacation4U_DB.sqlite");
         DataBaseController dbController = new MyDataBaseController(dataBase);
         String userName=txtfld_pkey.getText();
+        //
         try {
             String sql = "SELECT * " + "FROM Users WHERE Username = '"+ userName +"'";
             String record=dbController.read( sql );
