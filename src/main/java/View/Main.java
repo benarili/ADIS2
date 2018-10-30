@@ -29,7 +29,7 @@ public class Main extends Application {
 
         Parent root = fxmlLoader.load(getClass().getResource("/View.fxml").openStream());
         Scene scene = new Scene(root, 800, 700);
-        scene.getStylesheets().add("/View/MyStyle.css");
+        //scene.getStylesheets().add("MyStyle.css");
         primaryStage.setScene(scene);
         primaryStage.setTitle("Vacation4U");
         primaryStage.setScene(scene);
